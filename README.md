@@ -32,9 +32,9 @@ A construção do conjunto de dados principal foi realizada de forma local atrav
 
 Para aprofundar as análises e responder às perguntas de forma completa, a base inicial foi expandida utilizando duas APIs externas:
 
-1. **API do TMDB (The Movie Database)**: Através do script notebooks/02_enriquecimento_tmdb.ipynb, utilizamos o ID do IMDb para resgatar dados financeiros (orçamento e bilheteria absolutos), o idioma original do áudio e um identificador para mapear se o filme pertence a uma franquia. Esse enriquecimento ficou salvo como df_tmdb.csv.
+1. **API do TMDB (The Movie Database)**: Através do script `notebooks/02_enriquecimento_tmdb.ipynb`, utilizamos o ID do IMDb para resgatar dados financeiros (orçamento e bilheteria absolutos), o idioma original do áudio e um identificador para mapear se o filme pertence a uma franquia. Esse enriquecimento ficou salvo como `df_tmdb.csv`.
 
-2. **API do OMDb (The Open Movie Database)**: Através do script notebooks/03_enriquecimento_omdb.ipynb, buscamos o "Metascore" oficial da crítica especializada para permitir a comparação direta entre a opinião do público geral e a dos críticos. Esse enriquecimento ficou salvo como df_omdb.csv.
+2. **API do OMDb (The Open Movie Database)**: Através do script `notebooks/03_enriquecimento_omdb.ipynb`, buscamos o "Metascore" oficial da crítica especializada para permitir a comparação direta entre a opinião do público geral e a dos críticos. Esse enriquecimento ficou salvo como `df_omdb.csv`.
 
 ---
 
