@@ -34,7 +34,7 @@ Para aprofundar as análises e responder às perguntas de forma completa, a base
 
 1. **API do TMDB (The Movie Database)**: Através do script `notebooks/02_enriquecimento_tmdb.ipynb`, utilizamos o ID do IMDb para resgatar dados financeiros (orçamento e bilheteria absolutos), o idioma original do áudio e um identificador para mapear se o filme pertence a uma franquia. Esse enriquecimento ficou salvo como `df_tmdb.csv`.
 
-2. **API do OMDb (The Open Movie Database)**: Através do script `notebooks/03_enriquecimento_omdb.ipynb`, buscamos o "Metascore" oficial da crítica especializada para permitir a comparação direta entre a opinião do público geral e a dos críticos. Esse enriquecimento ficou salvo como `df_omdb.csv`.
+2. **API do OMDb (The Open Movie Database)**: Através do script `notebooks/03_enriquecimento_omdb.ipynb`, buscamos o "Metascore" oficial da crítica especializada para permitir a comparação direta entre a opinião do público geral e a dos críticos. Esse enriquecimento ficou salvo como `df_omdb.csv`. A API do OMDb aceita apenas 1000 requisições diárias na sua versão gratuita, então, buscando simplicidade e agilidade no código, pagamos pela versão patreon (que custou menos de 10 reais) que permite 100.000 requisições diarias. Isso explica a mudança do script `notebooks/03_enriquecimento_omdb.ipynb` no commit do primeiro dia para o commit final.
 
 ---
 
